@@ -203,6 +203,13 @@
     width: 40%;
   }
 
+  .country {
+    flex-direction: column;
+  }
+
+  .cn2 {
+    flex-direction: column;
+  }
 
 }
 
