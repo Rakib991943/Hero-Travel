@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Share Style  */
+.display-flex {
+  display: flex;
+}
+
+/* Header Style  */
+.navbar {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-travel {
+  gap: 20px;
+  width: 50%;
+}
+
+#hero {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+#travel {
+  color: rgb(255, 84, 0);
+}
+
+.nav-links {
+  list-style: none;
+  width: 500px;
+  height: 40px;
+}
+
+.nav-links a {
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(66, 66, 71);
+}
+
+#home {
+  color: rgb(255, 84, 0)
+}
+
+.banner {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 30px auto;
+  width: 1200px;
+  height: 500px;
+  background-color: rgb(66, 66, 71);
+  opacity: 0.9;
+}
+
+
+.banner-contains {
+
+  width: 800px;
+  height: 400px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-contains h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 64px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+}
+
+#special {
+  background-color: red;
+  color: white;
+}
+
+#our {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.popular-tour {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.descrip {
+  box-sizing: border-box;
+  padding-right: 30px;
+
+}
+
+#btn1 {
+  border: none;
+  background: rgb(255, 84, 0);
+}
+
+/* Choose your Destinatio */
+.destination {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1000px;
+}
+
+#choose {
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  height: 100px;
+}
+
+.country {
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.cn2 {
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+/* For Mobile Responsive */
+@media screen and (max-width:576px) {
+
+  .navbar {
+    flex-direction: column;
+
+  }
+
+  .nav-links {
+    margin-top: 30px;
+  }
+
+  .banner {
+    width: 90%;
+    height: 500px;
+    padding: 30px;
+  }
+
+  .banner-contains {
+    width: 100%;
+
+  }
+
+  .banner-contains button {
+    display: flex;
+    width: 300px;
+    height: 50px;
+  }
+
+  .banner-contains button i {
+    position: relative;
+    right: -220px;
+  }
+
+  #special i {
+    position: relative;
+    left: 200px;
+    top: 7px;
+  }
+
+  .descrip {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .popular-tour {
+    flex-direction: column;
+  }
+
+  #mountain img {
+    padding: 20px;
+    width: 40%;
+  }
+
+
+}
+
+
+
+/* Responsive for Tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .hero-travel {
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .popular-tour {
+    flex-direction: column;
+  }
+
+  .descrip {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #mountain {
+    padding: 20px;
+
+  }
+
+  #mountain img {
+    width: 80%;
+  }
+}
